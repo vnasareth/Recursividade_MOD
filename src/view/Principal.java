@@ -12,11 +12,10 @@ public class Principal {
 		
 		int dividendo = Integer.parseInt(JOptionPane.showInputDialog(null, "Digite o numero desejado de 0 ate 999999: "));
 		int divisor = 10;
-		int escolhido = 9;
 		int resultado = 0 ;
-		int resto ;
+		int resto = 9 ;
 		
-		int div = dc.div(dividendo,divisor,resultado,resto,escolhido);	
+		int div = dc.div(dividendo,divisor,resultado,resto);	
 		
 		System.out.println(div);
 		

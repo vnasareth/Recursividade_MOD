@@ -6,7 +6,7 @@ public class DivisaoController {
 		super();
 	}
 
-	public int div (int dividendo, int divisor, int resultado, int resto, int escolhido) {
+	public int div (int dividendo, int divisor, int resultado, int resto) {
 		
 		//Condicao de parada
 		// liha de if o resultado for igual a 0 retornar 0
@@ -27,8 +27,9 @@ public class DivisaoController {
 		if (resto == 9) {
 			
 			return + 1 div (dividendo,divisor,resultado,resto,escolhido);
+			
 			// fazer a proxima conta que é o resultado do anterior / divisor
-			resultado = resultado/divisor;
+			  resultado = resultado/divisor;
 		}
 	}
 
