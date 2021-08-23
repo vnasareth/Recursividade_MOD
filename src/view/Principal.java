@@ -14,11 +14,10 @@ public class Principal {
 		int divisor = 10;
 		int resultado = 0 ;
 		int resto = 9 ;
+		int incremento = 0;
 		
-		int div = dc.div(dividendo,divisor,resultado,resto);	
-		
-		System.out.println(div);
-		
+		int div = dc.div(dividendo,divisor,resultado,resto,incremento);			
+		System.out.println(div);		
 		JOptionPane.showMessageDialog(null, div);
 		
 	}
