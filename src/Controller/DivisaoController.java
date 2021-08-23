@@ -25,10 +25,7 @@ public class DivisaoController {
 		if (resto == 9) {
 		incremento = incremento + 1;
 		return incremento + div(resultado,9);
-		 //return 1+ div(dividendo,divisor,resultado,resto);
-			
-			// fazer a proxima conta que é o resultado do anterior / divisor
-			 // resultado = resultado/divisor;
+		 
 		}
 	}
 

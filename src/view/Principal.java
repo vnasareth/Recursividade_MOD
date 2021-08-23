@@ -16,7 +16,7 @@ public class Principal {
 		int resto = 9 ;
 		int incremento = 0;
 		
-		int div = dc.div(dividendo,divisor,resultado,resto,incremento);			
+		int div = dc.div(dividendo,divisor,resultado,resto,incremento);
 		System.out.println(div);		
 		JOptionPane.showMessageDialog(null, div);
 		
